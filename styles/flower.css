@@ -80,17 +80,42 @@ body {
   justify-content: space-between;
   display: flex;
 }
-.hot-deals-content{
- width: 600px;
- justify-content: center;
- margin-left: 300px;
- margin-top: 70px;
+.hot-deals-content {
+  width: 600px;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 70px;
 }
 .btn-alignment {
   margin-left: 230px;
 }
-.hot-deal-image{
+.hot-deal-image {
   margin-right: 400px;
   width: 318px;
   height: 420px;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  height: 400px;
+  text-align: center;
+  font-size: 18px;
+}
+.footer-description {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 80px;
+}
+.logo-clr{
+  color: #E55473;
+}
+.footer-all-rights{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
 }
