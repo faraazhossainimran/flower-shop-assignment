@@ -175,6 +175,37 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+/* Reviews section */
+.reviews-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.customers-reviews{
+  background-image: url("https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80");
+  /* background-image: url("../images/Rectangle9.png"); */
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviews-content{
+ width: 1200px;
+ padding:40px;
+ text-align: center;
+ margin: 0 auto;
+}
+.reviews-profile{
+  display: flex;
+  gap: 40px;
+}
+.reviews-profile p{
+  line-height: 1.5;
+  margin: 0;
+}
+.profile-image{
+  width: 300px;
+}
 /* instagram */
 .instagram{
   margin: 150px 180px;
