@@ -21,9 +21,7 @@ body {
 }
 /* Header CSS */
 .header {
-  /* background-color: #fff8f3; */
   background-color: rgba(229, 84, 115, 0.1);
-  /* background-image: url(../images/header_bg.png); */
 }
 .btn-primary {
   border-radius: 5px;
@@ -65,16 +63,13 @@ body {
 }
 .banner {
   padding: 30px 30px 0px 200px;
-  /* background-color: #fff8f3; */
   align-items: center;
-  /* background-image: url(../images/header_bg.png); */
   background-repeat: no-repeat;
   background-position: bottom right;
   justify-content: space-between;
   display: flex;
 }
 /* featured section */
-/*  Featured section */
 .featured {
   margin-top: 110px;
   margin-bottom: 110px;
@@ -100,7 +95,6 @@ body {
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
 }
-
 .bg-color1 {
   background: rgba(167, 33, 98, 0.15);
 }
@@ -183,7 +177,6 @@ select {
 }
 .customers-reviews{
   background-image: url("https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80");
-  /* background-image: url("../images/Rectangle9.png"); */
   width: 100%;
   justify-content: center;
   margin: 0 auto;
@@ -240,7 +233,11 @@ select {
 .logo-clr {
   color: #e55473;
 }
+.logo-colour{
+  color: #fff;
+}
 .footer-all-rights {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
+  margin-top: 30px;
 }
