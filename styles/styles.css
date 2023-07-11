@@ -75,8 +75,8 @@ body {
 /* featured section */
 /*  Featured section */
 .featured {
-  /* margin: 150px 500px; */
-  /* margin: 0 auto; */
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 .featured-content{
   width: 1200px;
@@ -126,17 +126,17 @@ body {
 /* hot deals content */
 .hot-deals {
   background: rgba(229, 84, 115, 0.05);
-  height: 350px;
-  padding: 160px;
+  height: 330px;
+  padding: 90px;
   justify-content: space-between;
   display: flex;
   margin-bottom: 110px;
-  margin-top: 110px;
+  margin-top: 170px;
 }
 .hot-deals-content {
   width: 600px;
   justify-content: center;
-  margin-left: 300px;
+  margin-left: 315px;
   margin-top: 70px;
 }
 .btn-alignment {
