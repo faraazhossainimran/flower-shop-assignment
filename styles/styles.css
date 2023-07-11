@@ -72,6 +72,46 @@ body {
   justify-content: space-between;
   display: flex;
 }
+/* featured section */
+/*  Featured section */
+.featured {
+  margin: 150px 500px;
+}
+.featured-image-group {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.featured-image {
+  width: 394px;
+  height: 468px;
+  margin: 10px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+}
+.bg-color1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.bg-color2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.bg-color3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.image-size {
+  width: 294px;
+  height: 441px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.img-title {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
 /* hot deals content */
 .hot-deals {
   background: rgba(229, 84, 115, 0.05);
@@ -94,7 +134,39 @@ body {
   width: 318px;
   height: 420px;
 }
-
+/* latest deals */
+.latest-deals {
+  background-image: url("../images/Rectangle9.png");
+  width: 1400px;
+  justify-content: center;
+  margin: 150px 180px;
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-area {
+  margin-top: 10px;
+  text-align: center;
+}
+.input-field {
+  padding: 19px;
+  border: 0;
+  width: 100px;
+}
+input[type="email"],
+select {
+  width: 50%;
+  padding: 18px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* instagram group */
+.instagram-img .instagram-img-group {
+  width: 200px;
+  margin: 11px;
+}
 /* Footer */
 .footer {
   background: #000;
@@ -119,33 +191,3 @@ body {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
 }
-.latest-deals {
-  background-image: url("../images/Rectangle9.png");
-  width: 1400px;
-  justify-content: center;
-  margin-left: 380px;
-  margin-top: 70px;
-  padding: 120px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* input area */
-.input-area {
-  margin-top: 10px;
-  text-align: center;
-}
-.input-field {
- padding: 19px;
- border: 0;
- width: 100px;
-}
-input[type=email], select {
-  width: 50%;
-  padding: 18px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  /* box-sizing: border-box; */
-}
-
