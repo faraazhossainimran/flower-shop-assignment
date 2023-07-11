@@ -75,7 +75,17 @@ body {
 /* featured section */
 /*  Featured section */
 .featured {
-  margin: 150px 500px;
+  /* margin: 150px 500px; */
+  /* margin: 0 auto; */
+}
+.featured-content{
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.featured-image-group {
+  width: 1200px;
+  justify-content: center;
 }
 .featured-image-group {
   align-items: center;
@@ -89,6 +99,7 @@ body {
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
 }
+
 .bg-color1 {
   background: rgba(167, 33, 98, 0.15);
 }
@@ -119,6 +130,8 @@ body {
   padding: 160px;
   justify-content: space-between;
   display: flex;
+  margin-bottom: 110px;
+  margin-top: 110px;
 }
 .hot-deals-content {
   width: 600px;
@@ -137,9 +150,9 @@ body {
 /* latest deals */
 .latest-deals {
   background-image: url("../images/Rectangle9.png");
-  width: 1400px;
+  width: 1200px;
   justify-content: center;
-  margin: 150px 180px;
+  margin: 0 auto;
   padding: 120px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,10 +175,18 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-/* instagram group */
+/* instagram */
+.instagram{
+  margin: 150px 180px;
+  
+}
 .instagram-img .instagram-img-group {
-  width: 200px;
+  width: 342px;
   margin: 11px;
+}
+.instagram-img{
+  display: flex;
+  justify-content: center;
 }
 /* Footer */
 .footer {
