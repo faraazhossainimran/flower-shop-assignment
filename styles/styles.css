@@ -112,10 +112,40 @@ body {
   font-weight: 700;
   padding-top: 80px;
 }
-.logo-clr{
-  color: #E55473;
+.logo-clr {
+  color: #e55473;
 }
-.footer-all-rights{
-color: rgba(255, 255, 255, 0.40);
-font-size: 16px;
+.footer-all-rights {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
+.latest-deals {
+  background-image: url("../images/Rectangle9.png");
+  width: 1400px;
+  justify-content: center;
+  margin-left: 380px;
+  margin-top: 70px;
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* input area */
+.input-area {
+  margin-top: 10px;
+  text-align: center;
+}
+.input-field {
+ padding: 19px;
+ border: 0;
+ width: 100px;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 18px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
